@@ -1,4 +1,4 @@
-## Introduction
+## 📜 Introduction
 FluentDecorator is a lightweight and extensible library that simplifies the implementation of the Decorator Pattern in .NET applications.
 <br>
 It provides a fluent API for registering services with multiple decorators in Dependency Injection (DI) container while ensuring proper lifetime management.
@@ -15,7 +15,7 @@ With FluentDecorator, you can easily wrap services with logging, validation, cac
 > &nbsp;&nbsp;&nbsp;✅ Extensibility – Decorators are applied dynamically, allowing flexible composition of behaviors.<br>
 > &nbsp;&nbsp;&nbsp;✅ Thread-Safe – Ensures safe concurrent execution with proper synchronization.<br>
 
-🛠️ How to Register and Use FluentDecorator
+## 🛠️ How to Register and Use FluentDecorator
 
 1️⃣ Add `FluentDecorator` services<br>
 To use FluentDecorator, you need to add `AddDecorator` extension method to IServiceCollection from `FluentDecorator` namespace.
