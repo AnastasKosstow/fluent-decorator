@@ -8,11 +8,11 @@ It provides a fluent API for registering services with multiple decorators in De
 With FluentDecorator, you can easily wrap services with logging, validation, caching, or other cross-cutting concerns without modifying the core service logic. The library supports singleton, scoped, and transient lifetimes, ensuring correct disposal of decorated services.
 
 > [!IMPORTANT]
-> Key Features:
-> ✅ Fluent API – Easily register decorators and services in a readable, expressive manner.
-> ✅ Lifetime Management – Supports Singleton, Scoped, and Transient services with correct disposal.
-> ✅ Extensibility – Decorators are applied dynamically, allowing flexible composition of behaviors.
-> ✅ Thread-Safe – Ensures safe concurrent execution with proper synchronization.
+> Key Features:<br>
+> &nbsp;&nbsp;&nbsp;✅ Fluent API – Easily register decorators and services in a readable, expressive manner.<br>
+> &nbsp;&nbsp;&nbsp;✅ Lifetime Management – Supports Singleton, Scoped, and Transient services with correct disposal.<br>
+> &nbsp;&nbsp;&nbsp;✅ Extensibility – Decorators are applied dynamically, allowing flexible composition of behaviors.<br>
+> &nbsp;&nbsp;&nbsp;✅ Thread-Safe – Ensures safe concurrent execution with proper synchronization.<br>
 
 🛠️ How to Register and Use FluentDecorator
 
