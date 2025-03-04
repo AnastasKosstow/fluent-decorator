@@ -1,15 +1,18 @@
 ## Introduction
-FluentDecorator is a lightweight and extensible library that simplifies the implementation of the Decorator Pattern in .NET applications. 
-It provides a fluent API for registering services with multiple decorators in Dependency Injection (DI) container while ensuring proper lifetime management.
+FluentDecorator is a lightweight and extensible library that simplifies the implementation of the Decorator Pattern in .NET applications.
 <br>
+It provides a fluent API for registering services with multiple decorators in Dependency Injection (DI) container while ensuring proper lifetime management.
+
+<br>
+
 With FluentDecorator, you can easily wrap services with logging, validation, caching, or other cross-cutting concerns without modifying the core service logic. The library supports singleton, scoped, and transient lifetimes, ensuring correct disposal of decorated services.
 
-Key Features
- - ✅ Fluent API – Easily register decorators and services in a readable, expressive manner.
- - ✅ Lifetime Management – Supports Singleton, Scoped, and Transient services with correct disposal.
- - ✅ Extensibility – Decorators are applied dynamically, allowing flexible composition of behaviors.
- - ✅ Thread-Safe – Ensures safe concurrent execution with proper synchronization.
-
+> [!IMPORTANT]
+> Key Features:
+> ✅ Fluent API – Easily register decorators and services in a readable, expressive manner.
+> ✅ Lifetime Management – Supports Singleton, Scoped, and Transient services with correct disposal.
+> ✅ Extensibility – Decorators are applied dynamically, allowing flexible composition of behaviors.
+> ✅ Thread-Safe – Ensures safe concurrent execution with proper synchronization.
 
 🛠️ How to Register and Use FluentDecorator
 
@@ -54,8 +57,6 @@ services.AddTransientService<IWeatherService>(
         ...
     });
 ```
-
-
 
 3️⃣ How It Works<br>
 `WeatherService` is the actual implementation that fetches weather data.<br>
